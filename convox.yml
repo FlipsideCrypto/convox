@@ -6,6 +6,6 @@ services:
       - ALGOLIA_INDEX
       - ALGOLIA_KEY_ADMIN
       - ALGOLIA_KEY_SEARCH
-      - SEGMENT_ID
+      - SEGMENT_TOKEN
     health: /check
     port: https:3000
