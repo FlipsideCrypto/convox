@@ -1,6 +1,7 @@
 services:
   docs:
     command: bin/docs
+    domain: ${HOST}
     environment:
       - ALGOLIA_APP
       - ALGOLIA_INDEX
